@@ -26,6 +26,8 @@ Does not warn:
 $.extend(true, {}, foo);
 ```
 
+## Usage
+
 `npm i --save-dev eslint-plugin-prefer-spread`
 
 ```json
