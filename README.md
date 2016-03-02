@@ -1,4 +1,4 @@
-# eslint-plugin-prefer-object-spread [![Build Status](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-object-spread.svg?branch=master)](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-object-spread)
+# eslint-plugin-prefer-spread [![Build Status](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-spread.svg?branch=master)](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-spread)
 
 Suggest using the spread operator over Object.assign.
 
@@ -26,15 +26,15 @@ Does not warn:
 $.extend(true, {}, foo);
 ```
 
-`npm i --save-dev eslint-plugin-prefer-object-spread`
+`npm i --save-dev eslint-plugin-prefer-spread`
 
 ```json
 {
 	"plugins": [
-		"prefer-object-spread"
+		"prefer-spread"
 	],
 	"rules": {
-		"prefer-object-spread/prefer-object-spread": [2, "includeNearEquivalents"]
+		"prefer-spread/prefer-object-spread": [2, "includeNearEquivalents"]
 	}
 }
 ```
