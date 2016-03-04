@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-prefer-spread",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Suggest using the spread operator over Object.assign.",
   "keywords": [
     "eslint",

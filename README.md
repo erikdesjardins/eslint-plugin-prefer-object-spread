@@ -32,11 +32,11 @@ $.extend(true, {}, foo);
 
 ```json
 {
-	"plugins": [
-		"prefer-spread"
-	],
-	"rules": {
-		"prefer-spread/prefer-object-spread": [2, "includeNearEquivalents"]
-	}
+  "plugins": [
+    "prefer-spread"
+  ],
+  "rules": {
+    "prefer-spread/prefer-object-spread": [2, "includeNearEquivalents"]
+  }
 }
 ```
