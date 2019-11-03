@@ -1,4 +1,4 @@
-# eslint-plugin-prefer-spread [![Build Status](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-spread.svg?branch=master)](https://travis-ci.org/erikdesjardins/eslint-plugin-prefer-spread)
+# eslint-plugin-prefer-spread
 
 Suggest using the spread operator over Object.assign.
 
